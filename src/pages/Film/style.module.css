@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.banner{
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    object-fit: contain;
+}
+
+.detais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin: 30px 0;
+    width: 500px;
+}
+.detais h1{
+    font-size: 40px;
+    font-family: 'Gugi', cursive;
+}
+.division{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.timerLangue{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+span{
+    background-color: #BEE5BF;
+    padding: 4px;
+    border-radius: 7px;
+    font-family: 'Gugi', cursive;
+}
+
+.creation{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 550px) {
+    .banner{
+        width: 90%;
+    }
+    .detais{
+        width: 90%;
+    }
+}

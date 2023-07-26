@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    
+    
+    padding: 0 20px;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 50px;
+    height: 24px;
+    font-size: 24px;
+    font-family: 'Gugi', cursive;
+}
+.subtitle div{
+    width: 6px;
+    height: 100%;
+    background-color: #CE7DA5;
+}
+.containerFilms{
+    margin: 30px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

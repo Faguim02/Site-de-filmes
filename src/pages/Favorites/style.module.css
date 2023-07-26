@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 40px 10px;
+}
+.container article{
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    flex-flow: row wrap;
+}
+.subTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 24px;
+    font-size: 24px;
+    font-family: 'Gugi', cursive;
+}
+.subTitle div{
+    width: 6px;
+    height: 100%;
+
+    background-color: #CE7DA5;
+}
+
+@media screen and (max-width: 500px) {
+    .container article{
+        justify-content: center;
+    }
+}
